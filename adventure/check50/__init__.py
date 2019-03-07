@@ -44,13 +44,13 @@ no_item = "No such item"
 
 class Adventure(Checks):
     def spawn_tiny(self):
-        return self.spawn("python3 adventure.py tiny")
+        return self.spawn("python3 adventure.py Tiny")
 
     def spawn_small(self):
-        return self.spawn("python3 adventure.py small")
+        return self.spawn("python3 adventure.py Small")
 
     def spawn_crowther(self):
-        return self.spawn("python3 adventure.py crowther")
+        return self.spawn("python3 adventure.py Crowther")
 
     @check()
     def exists(self):
